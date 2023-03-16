@@ -96,6 +96,10 @@ footer a{
     height: 30px;
 }
 
+.modal-body p > img{
+    height: 30px;
+}
+
 .modal-footer{
     background-image:linear-gradient(white, gray);
 }
