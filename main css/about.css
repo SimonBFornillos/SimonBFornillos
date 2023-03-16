@@ -1,0 +1,181 @@
+*{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+body{
+    background:  #f1fbff;
+}
+
+i{
+    color: crimson;
+}
+
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+
+.w-100{
+    height: 100vh;
+}
+
+.banner-container {
+    position: relative;
+}
+  
+.banner {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+  
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-body .Neo{
+    width: 100%;
+    height: 800px;
+    margin: 5px;
+}
+
+.heading{
+    color: #444;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px ;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 5px 5%;
+}
+
+.container2 .main-video{
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container2 .main-video video{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container2 .main-video .title{
+    color: #333;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container2 .video-list{
+    background: #fff;
+    border-radius: 5px;
+    height: 520px;
+    overflow-y: scroll;
+}
+
+.container2 .video-list::-webkit-scrollbar{
+    width: 7px;
+}
+
+.container2 .video-list::-webkit-scrollbar-track{
+    background: #ccc;
+    border-radius: 50px;
+}
+
+.container2 .video-list::-webkit-scrollbar-thumb{
+   background: #666;
+   border-radius: 50px;
+}
+
+.container2 .video-list .vid video{
+    width: 100px;
+    border-radius: 5px;
+}
+
+.container2 .video-list .vid{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, .1);
+    cursor: pointer;
+}
+
+.container2 .video-list .video:hover{
+    background: #eee;    
+}
+
+.container2 .video-list .vid.active{
+    background: #2980b9;
+}
+
+.container2 .video-list .vid.active .title{
+    color: #fff;
+}
+
+
+.container2 .video-list .vid .title{
+    color: #333;
+    font-size: 17px;
+}
+
+/* Responsive CSS */
+
+@media (max-width:991px){
+
+    .container2{
+        grid-template-columns: 2fr 1fr;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .container2{
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+        
+}
+
+footer{
+    background-image: linear-gradient(white,black);
+}
+
+footer a{
+    margin-right: 20px;
+}
+
+  

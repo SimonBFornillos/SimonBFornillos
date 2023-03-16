@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main css/about.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Orbitron:wght@700&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span class="text-danger">SIM</span>-ON<i class="bi bi-brightness-high-fill"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./prime.html">Prime</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="banner-container">
+        <img src="./Assets/warframeBanner.jpg" class="banner" alt="">
+        <div class="overlay"></div>
+      </div>
+      <section class="py-5">
+        <h3 class="text-center">ABOUT ME</h3>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <p>My name is Simon Fredrick B. Fornillos and im an aspiring Web Developer! I was given an opportunity by KodeGo to be able
+                to achieve my dream of becoming a Software Developer. I am still inexperienced with a lot of things when it comes to
+                coding but I am trying my absolute hardest to be able to fullfill my goals.</p>
+
+              <p>I am a gamer as well, I play games whenever I'm stressed out or letting the time pass by. The games I usually play are
+                Warframe, CS:GO, Valorant and etc. Most of the time I play with my friends, it's kinda boring when I play alone so I
+                usually play with them. I also play guitar usually playing opm songs, occasionally English songs. Most of the time I
+                sing whenever I play my guitar.</p>
+            </div>
+            <div class="col-12 col-sm-6">
+              <p>
+                I have knowledge with coding but most of the time if I did not practice it for a long time, I tend to forget it but
+                according to my professors before I am a very fast learner once I get the gist of what I am doing. Usually our focus on
+                coding was JavaScript and whenever we try to code in HTML, we use notepad++.
+              </p>
+              <p>
+                I also have a dog which I really love. I tend to hug him when I'm stressed or sad. He is a chow chow with Finnish Spitz
+                mix. We bought him around Feb 13, 2016.
+              </p>
+
+              <a href="#" class="btn btn-danger mt-3" data-bs-toggle="modal" data-bs-target="#Neo">Pics of Neo</a>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="modal fade" id="Neo" tabindex="-1" aria-labelledby="Neo Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title">Pics of Neo</h6>
+          </div>
+          <div class="modal-body">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./Assets/Neo1.jpg" class="Neo d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Assets/Neo2.jpg" class="Neo d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Assets/Neo3.jpg" class="Neo d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Assets/Neo4.jpg" class="Neo d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-warning" data-bs-dismiss="modal"> Close </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Player  -->
+
+    <h3 class="heading text-center mt-5">My Clips from various Games!</h3>
+    <div class="container2">
+        <div class="main-video">
+            <div class="video">
+                <video src="./Assets/4kTuscan.mp4" controls muted autoplay></video>
+                <h3 class="title">1. 4k Tuscan</h3>
+            </div>
+        </div>
+        <div class="video-list">
+            <div class="vid active">
+                <video src="./Assets/4kTuscan.mp4" muted></video>
+                <h3 class="title">1. 4k Tuscan</h3>
+            </div>
+            <div class="vid">
+                <video src="./Assets/ACE.mp4" muted></video>
+                <h3 class="title">2. ACE in Breeze</h3>
+            </div>
+            <div class="vid">
+                <video src="./Assets/Almost6k.mp4" muted></video>
+                <h3 class="title">3. Almost 6k</h3>
+            </div>
+            <div class="vid">
+                <video src="./Assets/insane4k.mp4" muted></video>
+                <h3 class="title">4. insane 4k</h3>
+            </div>
+            <div class="vid">
+                <video src="./Assets/Cornered2k.mp4" muted></video>
+                <h3 class="title">5. Cornered AWP 2k</h3>
+            </div>
+            <div class="vid">
+                <video src="./Assets/AlmostHadit.mp4" muted></video>
+                <h3 class="title">6. Almost had it!</h3>
+            </div>
+            <div class="vid">
+                <video src="./Assets/InsaaneFlickVertigo.mp4" muted></video>
+                <h3 class="title">7. Insane 3k Flick Vertigo</h3>
+            </div>
+            <div class="vid">
+                <video src="./Assets/AnotherInsaneFlickVertigo.mp4" muted></video>
+                <h3 class="title">8. Another Insane Flick Vertigo</h3>
+            </div>
+            <div class="vid">
+                <video src="./Assets/Almostturnedtheroundaround.mp4" muted></video>
+                <h3 class="title">9. Almost turned the round around</h3>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        let listVideo = document.querySelectorAll('.video-list .vid');
+        let mainVideo = document.querySelector('.main-video video');
+        let title = document.querySelectorAll('.main-video .title');
+
+        listVideo.forEach(video => {
+            video.onclick = () =>{
+                listVideo.forEach(vid => vid.classList.remove('active'));
+                video.classList.add('active');
+                if(video.classList.contains('active')){
+                    let src = video.children[0].getAttribute('src');
+                    mainVideo.src = src;
+                    let text =video.children[1].innerHTML;
+                    title[0].innerHTML = text;
+                };
+            };
+        });
+
+    </script>
+
+
+      <footer class="bg-black text-white">
+        <div class="container footer">
+          <div class="row">
+            <div class="col-12 col-md-6 mb-4 mb-md-0">
+              <h3><span class="text-danger">SIM-</span>ON<i class="bi bi-brightness-high-fill"></i></h3>
+              <nav>
+                <a href="./index.html" class="text-white text-decoration-none">Home</a>
+                <a href="./about.html" class="text-white text-decoration-none">About</a>
+                <a href="./prime.html" class="text-white text-decoration-none">Prime</a>
+                <a href="#contact" class="text-white text-decoration-none">Contact Us</a>
+              </nav>
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center justify-content-end">
+              <p class="copyright">&copy; Simon Fredrick B. Fornillos. All rights reserved</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

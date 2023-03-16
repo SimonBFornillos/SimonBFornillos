@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRIME</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./main css/prime.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Orbitron:wght@700&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><span class="text-danger">SIM</span>-ON<i
+          class="bi bi-brightness-high-fill"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./prime.html">Prime</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="banner-container">
+    <img src="./Assets/warframeBanner.jpg" class="banner" alt="">
+    <div class="overlay"></div>
+  </div>
+
+  <section id="projects">
+    <h3 class="text-center pt-4">Prime Warframe</h3>
+    <p class="text-center">Detailed description for each warframe I use.</p>
+    <div class="container py-5">
+      <div class="row gy-4">
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/GaraPrime.png" class="card-img-top" alt="" />
+            <div class="card-header">Gara Prime</div>
+            <div class="card-body">
+              <h5 class="text-center">Tank - Nuke</h5>
+              <p>Continue the legend of the glass-armored warrior Gara.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#garaPrime"> More details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/RevenantPrime.png" class="card-img-top" alt="" />
+            <div class="card-header">Revenant Prime</div>
+            <div class="card-body">
+              <h5 class="text-center">Tank</h5>
+              <p>The lost one rises. An efficient Eidolon slayer.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#revPrime"> More details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/WukongPrime.png" class="card-img-top" alt="" />
+            <div class="card-header">Wukong Prime</div>
+            <div class="card-body">
+              <h5 class="text-center">Tank - Survivalist</h5>
+              <p>The Trickster-warrior ascends to his ultimate incarnation.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#wukongPrime"> More details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/InarosPrime.png" class="card-img-top" alt="" />
+            <div class="card-header">Inaros Prime</div>
+            <div class="card-body">
+              <h5 class="text-center">Tank - Survivalist</h5>
+              <p>Rise, eternal, to cast the fear of Inaros into them.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#inarosPrime"> More details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/ExcaliburUmbra.png" class="card-img-top" alt="" />
+            <div class="card-header">Excalibur Umbra</div>
+            <div class="card-body">
+              <h5 class="text-center">Tank - DPS</h5>
+              <p>From the shadow of the night emerges a new Excalibur.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#excaliburPrime"> More
+                details </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/RhinoPrime.png" class="card-img-top" alt="" />
+            <div class="card-header">Rhino Prime</div>
+            <div class="card-body">
+              <h5 class="text-center">Tank</h5>
+              <p>Rhino Prime is the Primed variant of Rhino.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#rhinoPrime"> More details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/HarrowPrime.png" class="card-img-top" alt="" />
+            <div class="card-header">Harrow Prime</div>
+            <div class="card-body">
+              <h5 class="text-center">Tank - Support</h5>
+              <p>The Inquistor Eternal arises, hallowed by the void.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#harrowPrime"> More details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/MesaPrime.png" class="card-img-top" alt="" />
+            <div class="card-header">Mesa Prime</div>
+            <div class="card-body">
+              <h5 class="text-center">DPS</h5>
+              <p>Cast a long shadow with this lethal enforcer.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#mesaPrime"> More details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/NidusPrime.png" class="card-img-top" alt="" />
+            <div class="card-header">Nidus Prime</div>
+            <div class="card-body">
+              <h5 class="text-center">Tank - Survivalist</h5>
+              <p>Mutation is endless. The ravening plague-bearer returns.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#nidusPrime"> More details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/ChromaPrime.png" class="card-img-top" alt="" />
+            <div class="card-header">Chroma Prime</div>
+            <div class="card-body">
+              <h5 class="text-center">Tank-DPS-Supp</h5>
+              <p>Bind the elements and unleash untold destruction.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#chromaPrime"> More details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/NezhaPrime.png" class="card-img-top" alt="" />
+            <div class="card-header">Nezha Prime</div>
+            <div class="card-body">
+              <h5 class="text-center">Tank</h5>
+              <p>Behold: the Scion of the Burning Wind, now before you.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#nezhaPrime"> More details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2">
+          <div class="card">
+            <img src="./Assets/SarynPrime.png" class="card-img-top" alt="" />
+            <div class="card-header">Saryn Prime</div>
+            <div class="card-body">
+              <h5 class="text-center">Nuke - DPS</h5>
+              <p>A golden blossom conceals deadly nectar.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-end">
+              <button href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#sarynPrime"> More details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="garaPrime" tabindex="-1" aria-labelledby="Gara Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Gara Prime</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/GaraPrime.png" class="img-fluid" alt="" />
+          <p>Continue the legend of the glass-armored warrior Gara. Dominate the battlefield with the power and purity
+            of crystal.</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Gara Prime/ShatteredLash130xDark.png" alt=""> Shattered Lash</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Gara Prime/SplinterStorm130xDark.png" alt=""> Splinter Storm</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Gara Prime/Spectrorage130xDark.png" alt=""> Spectorage</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Gara Prime/MassVitrify130xDark.png" alt=""> Mass Vitrify</li>
+
+          <h3 class="text-center mt-4">Build</h3>
+          <img src="./Assets/warframe builds/GaraPrimeBuild.png" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="revPrime" tabindex="-1" aria-labelledby="Revenant Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Revenant Prime</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/RevenantPrime.png" class="img-fluid" alt="" />
+          <p>The lost one rises. Wield the essence of the Eidolon as you wield Revenant Prime’s power.</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Revenant Prime/Enthrall130xDark.png" alt=""> Enthrall</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Revenant Prime/MesmerSkin130xDark.png" alt=""> Mesmer Skin</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Revenant Prime/Reave130xDark.png" alt=""> Reave</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Revenant Prime/DanseMacabre130xDark.png" alt=""> Danse Macabre</li>
+
+          <h3 class="text-center mt-4">Build</h3>
+          <img src="./Assets/warframe builds/GaraPrimeBuild.png" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="wukongPrime" tabindex="-1" aria-labelledby="Wukong Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Wukong Prime</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/WukongPrime.png" class="img-fluid" alt="" />
+          <p>The trickster-warrior ascends to his ultimate incarnation.</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Wukong Prime/CelestialTwin130xDark.png" alt=""> Celestial Twin</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Wukong Prime/CloudWalker130xDark.png" alt=""> Cloud Walker</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Wukong Prime/Defy130xDark.png" alt=""> Defy</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Wukong Prime/PrimalFury130xDark.png" alt=""> Primal Fury</li>
+
+          <h3 class="text-center mt-4">Build</h3>
+          <img src="./Assets/warframe builds/GaraPrimeBuild.png" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="inarosPrime" tabindex="-1" aria-labelledby="inaros Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Inaros Prime</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/InarosPrime.png" class="img-fluid" alt="" />
+          <p>Rise, eternal, to cast the fear of Inaros into them. Featuring altered mod polarities for greater
+            customization.</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Inaros Prime/Desiccation130xDark.png" alt=""> Desiccation</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Inaros Prime/Devour130xDark.png" alt=""> Devour</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Inaros Prime/Sandstorm130xDark.png" alt=""> Sandstorm</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Inaros Prime/ScarabSwarm130xDark.png" alt=""> Scarab Swarm</li>
+
+          <h3 class="text-center mt-4">Build</h3>
+          <img src="./Assets/warframe builds/GaraPrimeBuild.png" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="excaliburPrime" tabindex="-1" aria-labelledby="excalibur Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Excalibur Umbra</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/ExcaliburUmbra.png" class="img-fluid" alt="" />
+          <p>From the shadow of the long night emerges a new Excalibur.</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Excalibur Umbra/SlashDash130xDark.png" alt=""> Slash Dash</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Excalibur Umbra/RadialHowl130xDark.png" alt=""> Radial Howl</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Excalibur Umbra/RadialJavelin130xDark.png" alt=""> Radial Javelin</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Excalibur Umbra/ExaltedBlade130xDark.png" alt=""> Exalted Blade</li>
+
+          <h3 class="text-center mt-4">Build</h3>
+          <img src="./Assets/warframe builds/GaraPrimeBuild.png" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="rhinoPrime" tabindex="-1" aria-labelledby="rhino Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Rhino Prime</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/RhinoPrime.png" class="img-fluid" alt="" />
+          <p>Red lights flashing on stark, white walls. Davis is running ahead of me, dropping his notes. We're running
+            for our
+            lives. The fear gives me a strange perspective - I'm out of my body. I've forgotten how I got here. I don't
+            recognize
+            this place.
+            Davis and I slam pinned against a cell door and he shouts at me. I give him a dumb look. I can't hear him,
+            the sirens,
+            anything, only the muffled throb of terror in my head. I turn away from Davis down the hall and I see it.
+            The hulking
+            mass, flickering red, glinting like steel and fresh blood. Its skin changes, flowing like mercury when I'm
+            blinded by
+            the sudden muzzle-flashes. They do no good. The beast surges forward and the security men become crimson
+            mist and gore.</p>
+
+          <p>I'm a statue, a cornered animal. A gate opens inside me and recognition floods in. I have seen this monster
+            before. I
+            have cut its shell and eviscerated its brothers. I have given it pain and measured its response. I have
+            crafted then
+            rejected countless like it. But I've never seen this beast so close, without the shield, without restraints.
+            I have
+            never seen it... free.</p>
+
+          <p>I know I will die so I just watch with curious acceptance. The beast squats down, shovelling a heap of gore
+            into its mouth. It is watching me with vague eyes, a sense of recognition, ancestral memory. It knows who I
+            am and what I've done. It rears up like a bear and roars, shattering the lights and casting us into
+            darkness. I can hear it lumbering toward me, its metal fingers rending the walls, but I know I am dead. I
+            close my eyes and stand ready to pay.</p>
+
+          <p>I feel the pull on my arm and realize Davis got the cell open. He tugs me into the cell beyond and I fall
+            on my back. I see Davis standing at the open door, waiting, as the monster tears towards us.</p>
+
+          <P>Suddenly I could live through this I shout, "Davis, close the goddamn door!" - But he shakes his head eyes
+            wide as moons. He shouts, "Watch!" over the roaring and rending of metal.</P>
+
+          <p>Then silence. Davis is panting, laughing? The beast fills the doorway, inches from him, dripping in blood,
+            but still without violence. It stands there, looking at its hands. Davis whispers, "No one would have
+            believed me."</p>
+
+          <p>I crawl up the wall to stand, opposite the door. I've never seen this cell, a cold place with an array of shelves. A morgue? "Where are we, Davis?"</p>
+
+          <p>"This is where they keep them. The ones from Zariman." I'm thrown, what was the Zariman? The ship that never returned? "Davis, what's going on?"</p>
+
+          <p>Davis turns to me, a smile forming - "What's going on is..." he turns back to the beast now silent and calm.</p>
+
+          <p>"...big, fat promotions."</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Rhino Prime/RhinoCharge130xDark.png" alt=""> Rhino Charge</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Rhino Prime/IronSkin130xDark.png" alt=""> Iron skin</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Rhino Prime/Roar130xDark.png" alt=""> Roar</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Rhino Prime/RhinoStomp130xDark.png" alt=""> Rhino Stomp</li>
+
+          <h3 class="text-center mt-4">Build</h3>
+          <img src="./Assets/warframe builds/GaraPrimeBuild.png" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="harrowPrime" tabindex="-1" aria-labelledby="harrow Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Harrow Prime</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/HarrowPrime.png" class="img-fluid" alt="" />
+          <p>The Inquisitor Eternal arises, hallowed by the Void, preaching a gospel of iron and flame.</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Harrow Prime/Condemn130xDark.png" alt=""> Condemn</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Harrow Prime/Penance130xDark.png" alt=""> Penance</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Harrow Prime/Thurible130xDark.png" alt=""> Thurible</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Harrow Prime/Covenant130xDark.png" alt=""> Covenant</li>
+
+          <h3 class="text-center mt-4">Build</h3>
+          <img src="./Assets/warframe builds/GaraPrimeBuild.png" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="mesaPrime" tabindex="-1" aria-labelledby="mesa Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Mesa Prime</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/MesaPrime.png" class="img-fluid" alt="" />
+          <p>Cast a long shadow with this lethal enforcer. Featuring altered mod polarities for greater customization.</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Mesa Prime/BallisticBattery130xDark.png" alt=""> Ballistic Gallery</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Mesa Prime/ShootingGallery130xDark.png" alt=""> Shooting Gallery</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Mesa Prime/ShatterShield130xDark.png" alt=""> Shatter Shield</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Mesa Prime/Peacemaker130xDark.png" alt=""> Peacemaker</li>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="nidusPrime" tabindex="-1" aria-labelledby="nidus Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Nidus Prime</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/NidusPrime.png" class="img-fluid" alt="" />
+          <p>Mutation is endless. The ravening plague-bearer returns in a long-unseen form, seething with a primal strain of the Infestation. Features altered Mod polarities for greater customization.</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Nidus Prime/Virulence130xDark.png" alt=""> Virulence</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Nidus Prime/Larva130xDark.png" alt=""> Larva</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Nidus Prime/ParasiticLink130xDark.png" alt=""> Parasitic</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Nidus Prime/Ravenous130xDark.png" alt=""> Ravenous</li>
+
+          <h3 class="text-center mt-4">Build</h3>
+          <img src="./Assets/warframe builds/GaraPrimeBuild.png" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="chromaPrime" tabindex="-1" aria-labelledby="chroma Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Chroma Prime</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/ChromaPrime.png" class="img-fluid" alt="" />
+          <p>Bind the elements and unleash untold destruction with Chroma Prime. Featuring altered mod polarities for greater customization.</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Chroma Prime/SpectralScream130xDark.png" alt=""> Spectral Scream</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Chroma Prime/ElementalWard130xDark.png" alt=""> Elemental Ward</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Chroma Prime/VexArmor130xDark.png" alt=""> Vex Armor</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Chroma Prime/Effigy130xDark.png" alt=""> Effigy</li>
+
+          <h3 class="text-center mt-4">Build</h3>
+          <img src="./Assets/warframe builds/GaraPrimeBuild.png" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="nezhaPrime" tabindex="-1" aria-labelledby="nezha Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Nezha Prime</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/NezhaPrime.png" class="img-fluid" alt="" />
+          <p>Behold: the Scion of the Burning Wind, now before you in most courtly accoutrement. Featuring altered mod polarities for greater customization.</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Nezha Prime/FireWalker130xDark.png" alt=""> Fire Walker</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Nezha Prime/BlazingChakram130xDark.png" alt=""> Blazing Chakram</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Nezha Prime/WardingHalo130xDark.png" alt=""> Warding Halo</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Nezha Prime/DivineSpears130xDark.png" alt=""> Divine Spear</li>
+
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="sarynPrime" tabindex="-1" aria-labelledby="saryn Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">Saryn Prime</h6>
+        </div>
+        <div class="modal-body">
+          <img src="./Assets/SarynPrime.png" class="img-fluid" alt="" />
+          <p>A golden blossom conceals deadly nectar. Featuring altered mod polarities for greater customization.</p>
+          <li>1st skill <img src="./Assets/warframeSkills/Saryn Prime/Spores130xDark.png" alt=""> Spores</li>
+          <li>2nd skill <img src="./Assets/warframeSkills/Saryn Prime/Molt130xDark.png" alt=""> Molt</li>
+          <li>3rd skill <img src="./Assets/warframeSkills/Saryn Prime/ToxicLash130xDark.png" alt=""> Toxic Lash</li>
+          <li>4th skill <img src="./Assets/warframeSkills/Saryn Prime/Miasma130xDark.png" alt=""> Miasma</li>
+
+          <h3 class="text-center mt-4">Build</h3>
+          <img src="./Assets/warframe builds/GaraPrimeBuild.png" class="img-fluid" alt="">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <footer class="bg-black text-white">
+    <div class="container footer">
+      <div class="row">
+        <div class="col-12 col-md-6 mb-4 mb-md-0">
+          <h3><span class="text-danger">SIM-</span>ON<i class="bi bi-brightness-high-fill"></i></h3>
+          <nav>
+            <a href="./index.html" class="text-white text-decoration-none">Home</a>
+            <a href="./about.html" class="text-white text-decoration-none">About</a>
+            <a href="./prime.html" class="text-white text-decoration-none">Prime</a>
+            <a href="#contact" class="text-white text-decoration-none">Contact Us</a>
+          </nav>
+        </div>
+        <div class="col-12 col-md-6 d-flex align-items-center justify-content-end">
+          <p class="copyright">&copy; Simon Fredrick B. Fornillos. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
