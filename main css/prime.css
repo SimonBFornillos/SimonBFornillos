@@ -196,4 +196,24 @@ footer a{
       margin-bottom: 20px;
     }
 }
+
+/* Responsive CSS */
+
+@media (max-width:991px){
+
+    .container2{
+        grid-template-columns: 2fr 1fr;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .container2{
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+        
+}
   

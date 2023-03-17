@@ -92,10 +92,11 @@ i{
 
 footer{
     background-image: linear-gradient(white,black);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer a{
     margin-right: 20px;
 }
-
-  
