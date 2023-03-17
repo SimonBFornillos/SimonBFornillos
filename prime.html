@@ -621,6 +621,77 @@
     </div>
   </div>
 
+   <!-- Video Player  -->
+
+   <h3 class="heading text-center mt-5">My Clips from various Games!</h3>
+   <div class="container2">
+       <div class="main-video">
+           <div class="video">
+               <video src="./Assets/4kTuscan.mp4" controls muted autoplay></video>
+               <h3 class="title">1. 4k Tuscan</h3>
+           </div>
+       </div>
+       <div class="video-list">
+           <div class="vid active">
+               <video src="./Assets/4kTuscan.mp4" muted></video>
+               <h3 class="title">1. 4k Tuscan</h3>
+           </div>
+           <div class="vid">
+               <video src="./Assets/ACE.mp4" muted></video>
+               <h3 class="title">2. ACE in Breeze</h3>
+           </div>
+           <div class="vid">
+               <video src="./Assets/Almost6k.mp4" muted></video>
+               <h3 class="title">3. Almost 6k</h3>
+           </div>
+           <div class="vid">
+               <video src="./Assets/insane4k.mp4" muted></video>
+               <h3 class="title">4. insane 4k</h3>
+           </div>
+           <div class="vid">
+               <video src="./Assets/Cornered2k.mp4" muted></video>
+               <h3 class="title">5. Cornered AWP 2k</h3>
+           </div>
+           <div class="vid">
+               <video src="./Assets/AlmostHadit.mp4" muted></video>
+               <h3 class="title">6. Almost had it!</h3>
+           </div>
+           <div class="vid">
+               <video src="./Assets/InsaaneFlickVertigo.mp4" muted></video>
+               <h3 class="title">7. Insane 3k Flick Vertigo</h3>
+           </div>
+           <div class="vid">
+               <video src="./Assets/AnotherInsaneFlickVertigo.mp4" muted></video>
+               <h3 class="title">8. Another Insane Flick Vertigo</h3>
+           </div>
+           <div class="vid">
+               <video src="./Assets/Almostturnedtheroundaround.mp4" muted></video>
+               <h3 class="title">9. Almost turned the round around</h3>
+           </div>
+       </div>
+   </div>
+
+   <script>
+
+       let listVideo = document.querySelectorAll('.video-list .vid');
+       let mainVideo = document.querySelector('.main-video video');
+       let title = document.querySelectorAll('.main-video .title');
+
+       listVideo.forEach(video => {
+           video.onclick = () =>{
+               listVideo.forEach(vid => vid.classList.remove('active'));
+               video.classList.add('active');
+               if(video.classList.contains('active')){
+                   let src = video.children[0].getAttribute('src');
+                   mainVideo.src = src;
+                   let text =video.children[1].innerHTML;
+                   title[0].innerHTML = text;
+               };
+           };
+       });
+
+   </script>
+
 
 
 
