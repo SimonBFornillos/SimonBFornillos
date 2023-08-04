@@ -26,7 +26,7 @@ Here are some projects I have collaborated on as a front-end developer:
 - ![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?logo=css3&logoColor=white)
 - ![React.js](https://img.shields.io/badge/-React.js-%2361DAFB?logo=react&logoColor=white)
 - ![Node.js](https://img.shields.io/badge/-Node.js-%233C873A?logo=node.js&logoColor=white)
-- ![Git](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+- ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
 ## 📫 Contact
 - Email: simonbfornillos@gmail.com
